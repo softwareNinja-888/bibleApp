@@ -2,7 +2,6 @@
 const random = (function(){
 
     const fecthRandom = (el)=>{
-        console.log('l');
         fetch('https://bible-api.com/?random=verse',{
             mode: 'cors'
         }).then(result=>{

@@ -7,6 +7,8 @@ const display = document.querySelector(".display")
 const ranVerse = document.querySelector(".ranVerse")
 const ranBtn = document.querySelector(".ranBtn")
 
+random.fecthRandom(ranVerse)
+
 ranBtn.addEventListener("click", ()=>{
     random.fecthRandom(ranVerse)
 })
